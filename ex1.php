@@ -9,7 +9,7 @@ Pais: <select name="code">
 	
 <?php
  		# (1.1) Connectem a MySQL (host,usuari,contrassenya)
- 		$conn = mysqli_connect('localhost','root','Contrasenya');
+ 		$conn = mysqli_connect('localhost','root','Contrasenya9');
  
  		# (1.2) Triem la base de dades amb la que treballarem
  		mysqli_select_db($conn, 'world');
